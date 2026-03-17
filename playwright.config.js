@@ -12,7 +12,7 @@ export default defineConfig({
 
   use: {
     browserName: 'chromium',
-    headless: false,
+    headless: true,
     screenshot: 'only-on-failure',
     video: 'retain-on-failure',       // record video if test fails
     trace: 'retain-on-failure',       // captures trace for debugging
